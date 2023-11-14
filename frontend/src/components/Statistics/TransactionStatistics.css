@@ -1,0 +1,45 @@
+/* src/components/TransactionStatistics.css */
+
+/* Container styling */
+div {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Header styling */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  /* Statistics box styling */
+  div > div {
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  /* Total Amount of Sale styling */
+  p:first-child {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  /* Total Sold Items styling */
+  p:nth-child(2) {
+    color: #2196f3;
+    font-weight: bold;
+  }
+  
+  /* Total Not Sold Items styling */
+  p:last-child {
+    color: #f44336;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,83 @@
+/* src/components/TransactionTable.css */
+
+/* Container styling */
+div {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Header styling */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  /* Dropdown styling */
+  label select {
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  /* Search box styling */
+  label input {
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Pagination styling */
+  div > span {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  /* Previous and Next button styling */
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
